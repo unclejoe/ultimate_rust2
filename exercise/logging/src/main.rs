@@ -7,6 +7,7 @@ use frogger::Frog;
 // 7. Update Cargo.toml to add the `env_logger` dependency
 
 fn main() {
+    env_logger::init();
     // 8. Initialize env_logger using the init() function at the top level of the library
 
     // 9. Run this program with `cargo run` and take a look at the default output.
